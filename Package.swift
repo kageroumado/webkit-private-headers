@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "WebKitPrivateHeaders",
+    name: "webkit-private-headers",
     platforms: [.macOS(.v15)],
     products: [
         .library(name: "WebKitPrivate", targets: ["WebKitPrivate"]),
