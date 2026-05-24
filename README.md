@@ -1,4 +1,4 @@
-# WebKitPrivateHeaders
+# webkit-private-headers
 
 A curated, documented set of WebKit private headers for macOS, packaged as a Swift Package — plus the Swift sugar to use them without selector-string footguns.
 
@@ -82,11 +82,11 @@ Requires macOS 15. (`WKWebView+Observation` uses `Synchronization.Mutex`, which 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/kageroumado/WebKitPrivateHeaders", from: "1.0.0"),
+    .package(url: "https://github.com/kageroumado/webkit-private-headers", from: "1.0.0"),
 ],
 targets: [
     .target(name: "App", dependencies: [
-        .product(name: "WebKitPrivate", package: "WebKitPrivateHeaders"),
+        .product(name: "WebKitPrivate", package: "webkit-private-headers"),
     ]),
 ],
 ```
