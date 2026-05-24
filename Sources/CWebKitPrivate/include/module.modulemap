@@ -1,0 +1,5 @@
+module CWebKitPrivate {
+    umbrella header "WebKitPrivate.h"
+    export *
+    module * { export * }
+}
